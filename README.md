@@ -1,63 +1,45 @@
-# Project: ETL
+# Final Project: Is AirBnB affecting Rent prices in Mallorca?
 
-![portada](./Pictures_SQL_PPT/MallorcaArbnb.png)
+![portada](./imagenes/Captura%20de%20Pantalla%202022-10-06%20a%20las%2019.27.50.png)
 
 
 ## INTRO
   ### Airbnb vs rent prices in Mallorca:
 
-My week proyect is about finding out if Airbnb renting does affect real renting prices by square meters in a historical data.
+The  project is about finding any correlation on the increase or decrease of prices of house rental in order to understand if this way of enjoying tourism does affect the normal life of Mallorquinians or any person who wants to move there to live.
 
-The focus is in the touristic area of Mallorca, Spain. To be able to start digging in a smaller dataframe.
+   I have to thank Murray Cox from Insiderairbnb.com for granting me access to great amounts of historical data of Airbnb from Mallorca
 
-The idea behind is to be able in the future to find a correlation -that might be for later porpoise - since Mallorca is breaking records each year.
-The population of Mallorca is worried about the increase of tourism in specific months form June to August. Since affects their normal day a day in the island.
+   Also I used the data accesible on the web of Idealista.com for the renting data of Mallorca and the 'municipios'.
 
-Is important to understand that this analysis is not meant to criticize tourism or either Airbnb, is meant for playing around with data and reach a neutral conclusion.
 
-I might not arrive to the final conclusion since is extensive analysis for a weekend.
+The reason to follow this line of though is the constant capacity that Mallorca has to break records of tourism each year.
+
+
+   The population of Mallorca is worried about the increase of tourism in specific months from June to August. Since affects their normal day a day in the island.
+
+   Is important to understand that this analysis is not meant to criticize tourism or either Airbnb, is meant for acquiring information and take more conciousness on how tourism can impact society. The end line is to reach a neutral conclusion.
+
+
 
 ## Coclusions I reached so far! 
 
-DATA OF AIRBNB IS BASED ON THE MONTHS OF MARCH & SEPT 2021, AND JUNE & SEPT 2022 all together.
-
-- Q1 -- Districts with mosth airbnb
-
- ![districts with most Airbnb](./Pictures_SQL_PPT/Q1.png)
-
-- Q2 -- Top 15 districts average prices x night - 50sqm only
-
-![Top 15 districts average prices x night - 50sqm only](./Pictures_SQL_PPT/Q2.png)
-
-- Q3 - Top 15 districts minimun average prices x night -50sqm
-
-![Top 15 districts average prices x night - 50sqm only](./Pictures_SQL_PPT/Q3.png)
-
-- Q4 -- % of difference in renting prices vs Airbnb by sqm in a monthly basis
-
-![Query4](./Pictures_SQL_PPT/Query4.png)
-![Top 15 districts average prices x night - 50sqm only](./Pictures_SQL_PPT/Q4final.png)
-
-- ERD 
-![ERD](./Pictures_SQL_PPT/Captura%20de%20Pantalla%202022-09-04%20a%20las%2022.45.11.png)
-
-- Outliers in Price and Avg.Price
-
-
-+
+Find them at : future link to Tableau public! 
 
 ## Technical Requirements - which I also followed for the proyect:
 
 - A) Grab DataSources that have enough data regarding Airbnb and the renting prices in the last years
-  - I reached a good source for Airbnb: http://insideairbnb.com/get-the-data
-  - Fought my way through scrapping data for the renting prices in all the districts of Mallorca : https://realadvisor.es/es/precios-viviendas/provincia-baleares
+  - I reached a good source for Airbnb, plus more that I had to request formally at:  http://insideairbnb.com/get-the-data
+  - Fought my way through scrapping data for the renting prices in all the districts of Mallorca : https://realadvisor.es/es/precios-viviendas/provincia-baleares & idealista.es
   - Found a way for this data to be connected in SQL with primary and foreing keys using the *Postal codes of each district * from wikipedia
 
-- B) This proyect is meant to force us to use DB, APIS or Scrapping ourways to the data from 3 different sources, whichever most convinient
-- C) Is also meant for us to do all work from previous weeks
+- B) This proyect is I used/ tried to find data sources through DB, APIS or Scrapping my way to the data 
+
+- C) Steps followed to clean and organize the data ETL
   - Analyzing the Data
   - Cleaning the Data ( dups, strings, types, nulls, n/a etc)
   - finding Outliers
+  - Keeping only certain data for the porpoise of the project
   - Putting together the data and do some calculations with new columns if needed
   - Upload to SQL and dig around with Queries to find the answers ( join, groupby, etc)
 
@@ -65,7 +47,7 @@ DATA OF AIRBNB IS BASED ON THE MONTHS OF MARCH & SEPT 2021, AND JUNE & SEPT 2022
 
 - A) I been quite impress by how I managed to jump over new issues, errors etc. I was able to solve all of them and understand the errors.
 - B) I managed to do some precious loops in order to keep all district names homogeneous - gigantic next time will focus on writting functions.
-       ![Loops](./Pictures_SQL_PPT/loop.png)
+
     - There were different issues with district names, like spanish version, catalonian version and accents
     - I had to keep them equal in all the three different tables in order to do proper analysis
 
@@ -73,23 +55,10 @@ DATA OF AIRBNB IS BASED ON THE MONTHS OF MARCH & SEPT 2021, AND JUNE & SEPT 2022
 - D) Managed to upload to SQL, ERD and do some cool Queries to find some answers
 
 
-## Biggest F*ups
-
- - A) Find out some nulls, they avoided me, also affected the first SQL Workbench upload
- - B) Forgot to look for Outliers, too much time worried for knowing if i was going to be able to do all steps with my okeish python skills, time is cruel
-
- - ![Outliers](./Pictures_SQL_PPT/Captura%20de%20Pantalla%202022-09-04%20a%20las%2022.54.17.png)
-
- - C) Loosing my weekend sitting down, i hope to get a good job. At least I Had fun and prove myself i could manage all alone!!!
 
 ## Some Thoughts
 
-- I was to quick with the analysis, is sad that I had to be too fast for it to manage some results
-- Analyisis is always the priority !!! 
-- More confident with Python! I was very worried i would not manage to do some complicated stuff
-- Finding resources was exhausting since most times was limited or not complete (the usual in general)
-- I requested APIS to Idealista.com I hope they send them and to a Mallorquinian govermnet database for all the ETV( legal turistic renting aparments)
-- Wished I had more time to fool around with Data Analysis and create some Graphics on the dataframes.
+
 
 Cheers and thanks for reading! 
 
