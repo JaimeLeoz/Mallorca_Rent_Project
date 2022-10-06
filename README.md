@@ -14,9 +14,12 @@ The project is about finding any correlation on the increase or decrease of pric
 
 The reason to follow this line of though is the constant capacity that Mallorca has to break records of tourism each year.
 
-    The population of Mallorca is worried about the increase of tourism in specific months from June to August. Since affects their normal day a day in the     island.
+    The population of Mallorca is worried about the increase of tourism in specific months from June to August. 
+    Since affects their normal day a day in the island.
    
-    Is important to understand that this analysis is not meant to criticize tourism or either Airbnb, is meant for acquiring information and take more          conciousness on how tourism can impact society. The end line is to reach a neutral conclusion.
+    Is important to understand that this analysis is not meant to criticize tourism or either Airbnb, i
+    s meant for acquiring information and take more conciousness on how tourism can impact society. 
+    The end line is to reach a neutral conclusion.
 
 
 
