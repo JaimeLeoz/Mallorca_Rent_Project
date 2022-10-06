@@ -1,4 +1,4 @@
-# Final Project: Is AirBnB affecting Rent prices in Mallorca?
+# Final Project: Does AirBnB affect the House Rent prices in Mallorca?
 
 ![portada](./imagenes/Captura%20de%20Pantalla%202022-10-06%20a%20las%2019.27.50.png)
 
