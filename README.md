@@ -25,13 +25,26 @@ The reason to follow this line of though is the constant capacity that Mallorca 
 
 ## Coclusions I reached so far! 
 
-Here is most of the ppt made on Tableau:
+Here is most of the ppt made on Tableau
+
+    In the first image we have a fast representation by size and district of how many Airbnbs there is and wich is the average price per night by district.
 
 ![alt text](./imagenes/Captura%20de%20pantalla%202023-01-31%20a%20las%2013.20.14.png "Mallorca AirBnB distribution and avg.pricexnight")
-![alt text](./imagenes/Captura%20de%20pantalla%202023-01-31%20a%20las%2013.20.35.png "Mallorca AirBnB price evolution")
-![alt text](./imagenes/Captura%20de%20pantalla%202023-01-31%20a%20las%2013.20.54.png "Mallorca rent housing prices evolution")
+    
+    AirBnB avg.price evolution per night sice 2016 to 2022 and also wich distric has the most Airbnb's and a list of avg.price x night and district.
+
+![alt text](./imagenes/Captura%20de%20pantalla%202023-01-31%20a%20las%2019.09.50.png "Mallorca AirBnB price evolution")
+
+    Avg. rent prices since 2016 to 2022 of Mallorquinian aparments 
+
 ![alt text](./imagenes/Captura%20de%20pantalla%202023-01-31%20a%20las%2013.20.55.png "Mallorca rent housing prices evolution")
+
+    The study of the correlation between the increase of AirBnB's prices vs. Rent Prices - shows no direct correlation.
+
 ![alt text](./imagenes/Captura%20de%20pantalla%202023-01-31%20a%20las%2013.23.09.png "Study of the correlation of prices")
+
+    Prediction of the evolution of prices for 2023-2024 with machine learning
+
 ![alt text](./imagenes/Captura%20de%20pantalla%202023-01-31%20a%20las%2013.28.56.png "Prices prediction, Facebook Prophet")
 
 ## Technical Requirements - which I also followed for the proyect:
