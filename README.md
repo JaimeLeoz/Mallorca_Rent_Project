@@ -25,7 +25,14 @@ The reason to follow this line of though is the constant capacity that Mallorca 
 
 ## Coclusions I reached so far! 
 
-    Find them at : future link to Tableau public! 
+Here is most of the ppt made on Tableau:
+
+![alt text](./imagenes/Captura%20de%20pantalla%202023-01-31%20a%20las%2013.20.14.png "Mallorca AirBnB distribution and avg.pricexnight")
+![alt text](./imagenes/Captura%20de%20pantalla%202023-01-31%20a%20las%2013.20.35.png "Mallorca AirBnB price evolution")
+![alt text](./imagenes/Captura%20de%20pantalla%202023-01-31%20a%20las%2013.20.54.png "Mallorca rent housing prices evolution")
+![alt text](./imagenes/Captura%20de%20pantalla%202023-01-31%20a%20las%2013.20.55.png "Mallorca rent housing prices evolution")
+![alt text](./imagenes/Captura%20de%20pantalla%202023-01-31%20a%20las%2013.23.09.png "Study of the correlation of prices")
+![alt text](./imagenes/Captura%20de%20pantalla%202023-01-31%20a%20las%2013.28.56.png "Prices prediction, Facebook Prophet")
 
 ## Technical Requirements - which I also followed for the proyect:
 
