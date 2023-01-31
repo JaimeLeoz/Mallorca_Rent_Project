@@ -12,7 +12,7 @@ The project is about finding any correlation on the increase or decrease of pric
     Also I used the data accesible on the web of Idealista.com for the renting data of Mallorca and the 'municipios'.
 
 
-The reason to follow this line of though is the constant capacity that Mallorca has to break records of tourism each year.
+The reason to follow this line of though is the constant capacity that Mallorca has to break tourism records each year.
 
     The population of Mallorca is worried about the increase of tourism in specific months from June to August. 
     Since affects their normal day a day in the island.
@@ -25,27 +25,31 @@ The reason to follow this line of though is the constant capacity that Mallorca 
 
 ## The presentation and conclusion.
 
-Here is most of the ppt made on Tableau
+The presentation was made with Tableau. 
 
-    In the first image we have a fast representation by size and district of how many Airbnbs there is and wich is the average price per night by district.
+With all the acquired historical data on Airbnb prices and rent prices from 2016 to 2022 I haven’t found a direct correlation between each other. There's a lot of factors to consider regarding tourism and seasonality that can affect both more directly. While the number of Airbnb’s in Mallorca keep growing, rent prices are quite stable over time. After Covid_19 crisis, we can see an altercation of both variables which is leading to a very convulse times were the constant growth on previous years has disappear to find more judder and harder to predict prices, with high jumps depending on the seasonality, and finding sharper high or low prices since 2016. This is an interesting finding since Airbnb host have found the opportunity to rent at higher prices thanks to the crisis and expect a stronger return on tourism. Also after Covid while Mallorca becomes more touristic rent prices get sharply higher and sharply lower get is off-season.
+
+
+In the first image we have a fast representation by size and district of how many Airbnbs there is and wich is the average price per night by district.
 
 ![alt text](./imagenes/Captura%20de%20pantalla%202023-01-31%20a%20las%2013.20.14.png "Mallorca AirBnB distribution and avg.pricexnight")
     
-    Next is AirBnB avg.price evolution per night from 2016 to 2022 and also wich distric has the most Airbnb's and a list of avg.price x night and district.
+Next is AirBnB avg.price evolution per night from 2016 to 2022 and also wich distric has the most Airbnb's and a list of avg.price x night and district.
 
 ![alt text](./imagenes/Captura%20de%20pantalla%202023-01-31%20a%20las%2019.09.50.png "Mallorca AirBnB price evolution")
 
-    Next Avg. rent prices since 2016 to 2022 of Mallorquinian aparments 
+Next Avg. rent prices since 2016 to 2022 of Mallorquinian aparments 
 
 ![alt text](./imagenes/Captura%20de%20pantalla%202023-01-31%20a%20las%2013.22.55.png "Mallorca rent housing prices evolution")
 
-    The study of the correlation between the increase of AirBnB's prices vs. Rent Prices - shows no direct correlation over time.
+Conclusion: The study of the correlation between the increase of AirBnB's prices vs. Rent Prices - shows no direct correlation over time.
 
 ![alt text](./imagenes/Captura%20de%20pantalla%202023-01-31%20a%20las%2013.23.09.png "Study of the correlation of prices")
 
-   And last a Prediction of the evolution of prices for 2023-2024 with machine learning
+And last a Prediction of the evolution of prices for 2023-2024 with machine learning
 
 ![alt text](./imagenes/Captura%20de%20pantalla%202023-01-31%20a%20las%2013.28.56.png "Prices prediction, Facebook Prophet")
+
 
 ## Technical Requirements - which I also followed for the proyect:
 
