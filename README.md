@@ -23,7 +23,7 @@ The reason to follow this line of though is the constant capacity that Mallorca 
 
 
 
-## Coclusions I reached so far! 
+## The presentation and conclusion.
 
 Here is most of the ppt made on Tableau
 
@@ -31,19 +31,19 @@ Here is most of the ppt made on Tableau
 
 ![alt text](./imagenes/Captura%20de%20pantalla%202023-01-31%20a%20las%2013.20.14.png "Mallorca AirBnB distribution and avg.pricexnight")
     
-    AirBnB avg.price evolution per night sice 2016 to 2022 and also wich distric has the most Airbnb's and a list of avg.price x night and district.
+    Next is AirBnB avg.price evolution per night from 2016 to 2022 and also wich distric has the most Airbnb's and a list of avg.price x night and district.
 
 ![alt text](./imagenes/Captura%20de%20pantalla%202023-01-31%20a%20las%2019.09.50.png "Mallorca AirBnB price evolution")
 
-    Avg. rent prices since 2016 to 2022 of Mallorquinian aparments 
+    Next Avg. rent prices since 2016 to 2022 of Mallorquinian aparments 
 
-![alt text](./imagenes/Captura%20de%20pantalla%202023-01-31%20a%20las%2013.20.55.png "Mallorca rent housing prices evolution")
+![alt text](./imagenes/Captura%20de%20pantalla%202023-01-31%20a%20las%2013.22.55.png "Mallorca rent housing prices evolution")
 
-    The study of the correlation between the increase of AirBnB's prices vs. Rent Prices - shows no direct correlation.
+    The study of the correlation between the increase of AirBnB's prices vs. Rent Prices - shows no direct correlation over time.
 
 ![alt text](./imagenes/Captura%20de%20pantalla%202023-01-31%20a%20las%2013.23.09.png "Study of the correlation of prices")
 
-    Prediction of the evolution of prices for 2023-2024 with machine learning
+   And last a Prediction of the evolution of prices for 2023-2024 with machine learning
 
 ![alt text](./imagenes/Captura%20de%20pantalla%202023-01-31%20a%20las%2013.28.56.png "Prices prediction, Facebook Prophet")
 
@@ -77,13 +77,4 @@ Here is most of the ppt made on Tableau
 - E) Managed to upload to SQL, ERD and do some cool Queries to find some answers
 
 
-
-
 Cheers and thanks for reading! 
-
-
-
-* [Python Functional Programming How To Documentation](https://docs.python.org/3.7/howto/functional.html)
-* [Python List Comprehensions Documentation](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions)
-* [Python Errors and Exceptions Documentation](https://docs.python.org/3/tutorial/errors.html)
-* [StackOverflow String Operation Questions](https://stackoverflow.com/questions/tagged/string+python)
